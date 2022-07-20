@@ -70,15 +70,16 @@ html{
 }
 
 
-.test{
-  /* width: 1000px; */
-/*   max-width: 1000px; */
-  background-color: red;
-  padding: 100px;
-  font-size: 2rem;
-  max-width: 50rem;
-  /* 1 rem = 16px by default from browser, but if we change in html, who is parent element
-  it will be, by example, 1rem=10px */
+.hero{
+   max-width: 130rem;
+   margin: 0 auto;  /*  trick :centered in viewport */
+   display: grid;
+   grid-template-columns: 1fr 1fr; /* two equally size columns */
+  /* background-color:rebeccapurple ;*/
+}
+
+.hero-img{
+  width: 100%; 
 }
 
 /* at this monent we do not want to choose specific typeface yet
