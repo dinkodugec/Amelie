@@ -56,7 +56,7 @@ Medium: 11px
 }
 
 body{
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -70,7 +70,7 @@ html{
 }
 
 .section-hero{
-  background-color: aquamarine;
+  background-color: #fae5d3 ;
   padding: 9.6rem 0;   /* when we have background color we always us padding, actually this is space between section  */
 }
 
