@@ -93,13 +93,35 @@ html {
   grid-template-columns: repeat(4, 1fr); /* it is same like 1fr 1fr 1fr 1fr */
 }
 
+.heading-primary,
+.heading-secondary {
+  color: #333;
+  /*  color: #45260a; */
+  /*  color: #343a40; */
+  font-weight: 700;
+  letter-spacing: 1px; /* very small unit so that we do not use rem */
+}
+
 .heading-primary {
   font-size: 5.2rem; /* 52px */
-  font-weight: 700;
   list-style: 1.05;
-  color: #333;
-  letter-spacing: 1px; /* very small unit so that we do not use rem */
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px; /* space between letters */
 }
 
 .btn:link,
@@ -246,5 +268,9 @@ btn:active {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+  /*   background-color: orangered;  just see how works */
+}
+
+.step.img {
+  width: 50%;
 }
