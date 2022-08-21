@@ -68,6 +68,31 @@ html {
 
 /* GENERAL REUSABLE COMPONENTS */
 
+.container {
+  /*  this will I used to center contnet in page */
+  max-width: 120rem;
+  margin: 0 auto; /* give the same margin to left and right side */
+  padding: 0 3.2rem;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr); /* it is same like 1fr 1fr */
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr); /* it is same like 1fr 1fr 1fr */
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr); /* it is same like 1fr 1fr 1fr 1fr */
+}
+
 .heading-primary {
   font-size: 5.2rem; /* 52px */
   font-weight: 700;
@@ -215,4 +240,11 @@ btn:active {
 .delivered-hair {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+/* SECTION HOW */
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
 }
