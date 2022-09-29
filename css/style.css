@@ -139,3 +139,23 @@
   color: #ddd;
   margin-bottom: 1.2rem;
 }
+
+/* SECTION ABOUTUS */
+
+.aboutus {
+  display: flex;
+  max-width: 90%;
+  margin-top: 40px;
+  margin: 40px auto;
+  /*   background-color: orangered; */
+  justify-content: space-between;
+
+  gap: 10rem;
+}
+
+.aboutme-text {
+  align-self: flex-start;
+}
+
+.aboutme-picture {
+}
