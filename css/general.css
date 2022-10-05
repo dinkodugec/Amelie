@@ -94,6 +94,10 @@ html {
   grid-template-columns: repeat(4, 1fr); /* it is same like 1fr 1fr 1fr 1fr */
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
