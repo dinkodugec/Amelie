@@ -110,12 +110,17 @@
   font-weight: 600;
 }
 
+/* STEPS */
+.steps {
+  padding: 6rem 0;
+}
+
 /* SECTION HOW IT WORKS*/
 
 .section-how {
   padding: 9.6rem 0;
 
-  /*   background-color: orangered;  just see how works */
+  background-color: #fffae6;
 }
 
 .step-img-box {
