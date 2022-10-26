@@ -54,19 +54,21 @@
 
 /* HERO SECTION */
 .section-hero {
-  background-color: #fae5d3;
-  padding: 4.8rem 0 9.6rem 0; /* when we have background color we always us padding, actually this is space between section  */
+  height: 95vh;
+  background-color: orange;
+  /* background-color: #e6f3ff; */
+  padding: 8rem 0 9.6rem 0; /* when we have background color we always us padding, actually this is space between section  */
 }
 
 .hero {
-  max-width: 130rem;
-  margin: 0 auto; /*  trick :centered in viewport */
+  max-width: 160rem;
+  margin: 6rem auto; /*  trick :centered in viewport */
   padding: 0 3.2rem;
   display: grid;
   align-items: center; /*   vertically center content in grid */
   grid-template-columns: 1fr 1fr; /* two equally size columns */
   gap: 9.6rem; /* gap between grid columns */
-  /* background-color:rebeccapurple ;*/
+  /*  background-color: rebeccapurple; */
 }
 
 .hero-description {
@@ -119,7 +121,6 @@
 
 .section-how {
   padding: 9.6rem 0;
-
   background-color: #fffae6;
 }
 
@@ -136,13 +137,6 @@
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8rem;
-}
-
-.step-number {
-  font-size: 8.6rem;
-  font-weight: 600;
-  color: #ddd;
-  margin-bottom: 1.2rem;
 }
 
 /* SECTION ABOUTUS */
@@ -163,7 +157,12 @@
 }
 
 .about-picture {
-  width: 85%;
+  transition: all 0.4s;
+  width: 65%;
+}
+
+.about-picture:hover {
+  transform: scale(1.1);
 }
 
 /* TESTEMONIALS SECTION */
@@ -222,7 +221,7 @@
 }
 
 .gallery-item img:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 /* FOOTER */

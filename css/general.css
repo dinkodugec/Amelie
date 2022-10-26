@@ -103,7 +103,7 @@ html {
 }
 
 .step-dec {
-  font-family: "Satisfy", cursive;
+  font-size: 1.2rem;
 }
 
 .heading-primary,
@@ -119,7 +119,7 @@ html {
 .heading-primary {
   font-size: 5.2rem; /* 52px */
   list-style: 1.05;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .heading-secondary {
@@ -129,9 +129,9 @@ html {
 }
 
 .heading-tertiary {
-  font-size: 6rem;
+  font-family: "Satisfy", cursive;
+  font-size: 8rem;
   line-height: 1.2;
-  margin-bottom: 1.2rem;
 }
 
 .subheading {
