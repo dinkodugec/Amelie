@@ -57,6 +57,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 html {
@@ -64,6 +65,7 @@ html {
   /* https://www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/#setting-the-root-font-size-to-625percent
   MANY CSS DEV USE THIS TRICK :) */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
