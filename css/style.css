@@ -21,7 +21,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -55,7 +55,7 @@
 /* HERO SECTION */
 .section-hero {
   height: 95vh;
-  background-color: orange;
+  background-color: rgb(181, 194, 199);
   /* background-color: #e6f3ff; */
   padding: 8rem 0 9.6rem 0; /* when we have background color we always us padding, actually this is space between section  */
 }
@@ -216,6 +216,7 @@
 
 .gallery-item img {
   display: block;
+  height: 100%;
   width: 100%;
   transition: all 0.4s;
 }
