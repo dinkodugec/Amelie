@@ -3,7 +3,7 @@ Instead, 1rem = 1em = 16px
 rem can cauuse some bugs in some browser*/
 
 /* BELOW 1344px Smaller desktops*/
-@media (max-width: 84rem) {
+@media (max-width: 84em) {
   /* 1344/16px */
   .hero {
     max-width: 120rem;
@@ -23,7 +23,7 @@ rem can cauuse some bugs in some browser*/
 @media (max-width: 75em) {
   html {
     /* 9px/16px */
-    font-size: 56.25%;
+    font-size: 56.25%; /* making all smalers */
   }
 
   .grip {
@@ -36,7 +36,7 @@ rem can cauuse some bugs in some browser*/
   }
 
   .heading-tertiary {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .header {
@@ -53,6 +53,11 @@ rem can cauuse some bugs in some browser*/
 
   .testemonials-container {
     padding: 9.6rem 3.2rem;
+  }
+
+  .step-img {
+    width: 300px;
+    height: 300px;
   }
 }
 
