@@ -61,6 +61,42 @@ rem can cauuse some bugs in some browser*/
   }
 }
 
+/******** BELOW 900px ****/
+
+@media (max-width: 56em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+    gap: 6.4rem;
+  }
+
+  .hair-done {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 /*******MOBILE NAVIGATION ****/
 
 .btn-mobile-nav {
