@@ -31,7 +31,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outlined"] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -75,7 +75,8 @@
 /* HERO SECTION */
 .section-hero {
   height: 95vh;
-  background-color: rgb(181, 194, 199);
+  /* background-color: rgb(181, 194, 199); */
+  background-color: #fdf2e9;
   /* background-color: #e6f3ff; */
   padding: 8rem 0 9.6rem 0; /* when we have background color we always us padding, actually this is space between section  */
 }

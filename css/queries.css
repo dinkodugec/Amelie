@@ -116,10 +116,11 @@ rem can cauuse some bugs in some browser*/
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
+  /*  transition: all 1s ease-in;  good to experiment */
 
   /* HIDE NAVIGATION
-  allows NO TRANSITION at all
-  display: none */
+  allows NO TRANSITION at all */
+  /* display: none 
 
   /* 1. hide element visually */
   opacity: 0;
@@ -135,13 +136,14 @@ rem can cauuse some bugs in some browser*/
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
+  transform: translateX(0);
 }
 
-.nav-open .icon-mobile-nav[name="close-outlined"] {
-  display: none;
+.nav-open .icon-mobile-nav[name="close-outline"] {
+  display: block;
 }
 
-.nav-open .icon-mobile-nav[name="menu-outlined"] {
+.nav-open .icon-mobile-nav[name="menu-outline"] {
   display: none;
 }
 
