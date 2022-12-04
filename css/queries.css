@@ -101,7 +101,7 @@ rem can cauuse some bugs in some browser*/
 
 .btn-mobile-nav {
   display: block;
-  z-index: 1000;
+  z-index: 9999;
 }
 
 .main-nav {

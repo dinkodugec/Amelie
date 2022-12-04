@@ -66,6 +66,9 @@ html {
   MANY CSS DEV USE THIS TRICK :) */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /*  does not work with safari on iphones */
+  /* scroll-behavior: smooth; */
 }
 
 /* GENERAL REUSABLE COMPONENTS */
